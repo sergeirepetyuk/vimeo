@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/Sitemap.css">
+    <link rel="stylesheet" href="style/Stats-dashboard.css">
+    <link rel="stylesheet" href="style/Footer-sitemap.css">
+    <link rel="stylesheet" href="style/Sitemap-small.css">
+</head>
+<body>
+    <section class="Footer-sitemap">
+        <div class="Sitemap">
+            {{#sitemap-section}}
+                <nav class="Sitemap__section">
+                    <h6 class="Sitemap__section-header">{{section-name}}</h6>
+                    {{#items}}
+                        <a class="Sitemap__section-item" href="{{url}}"><span class="Sitemap__section-title">{{title}}</span></a>
+                    {{/items}}
+                </nav>
+            {{/sitemap-section}}
+            {{#smallmap}}
+                <div class="Sitemap-small">
+                    <h4 class="Sitemap-small__item-header">{{title}}</h4>
+                    <img class="Sitemap-small__arrow" src="https://www.nordbahnhalle.org/wp-content/uploads/2017/04/select-arrow-down.png"/>
+                </div>
+            {{/smallmap}}
+        </div>
+        <div class="Stats-dashboard">
+            <h6 class="Stats-dashboard__header">Did you know?</h6>
+            <p class="Stats-dashboard__info">Pay a visit to your  <a class="Stats-dashboard__link" href="#">stats dashboard</a> to get powerful insights into how your videos are performing.</p>
+        </div>
+    </section>
+</body>
+</html>

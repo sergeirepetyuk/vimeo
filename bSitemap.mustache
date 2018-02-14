@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/Sitemap.css">
+</head>
+<body>
+    <div class="Sitemap">
+        {{#sitemap-section}}
+            <nav class="Sitemap__section">
+                <h6 class="Sitemap__section-header">{{section-name}}</h6>
+                {{#items}}
+                    <a class="Sitemap__section-item" href="{{url}}"><span class="Sitemap__section-title">{{title}}</span></a>
+                {{/items}}
+            </nav>
+        {{/sitemap-section}}
+    </div>
+</body>
+</html>

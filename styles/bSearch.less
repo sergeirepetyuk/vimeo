@@ -1,0 +1,65 @@
+.search-form{
+  display: inline-block;
+  opacity: .66;
+  position: absolute;
+  top: 16px;
+  right: 105px;
+  &__input {
+    display:inline-block;
+    background-color: #fff;
+    width: 221px;
+    height: 26px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 3px;
+    border: 1px solid #4E5A5E;
+    padding-left: 5px;
+  }
+  &__button{
+    display:inline-block;
+    color: transparent;
+    background-color: #ffff;
+    outline: none;
+    position: relative;
+    left:-35px;
+    width: 30px;
+    height: 25px;
+    opacity: .75;
+    border: none;
+    border-radius: 3px;
+    background-image: url("../images/black-gmail-sprite.png");
+    background-position: 8px -537px;
+    background-repeat: no-repeat;
+  }
+  @media(max-width: 900px){
+    &__input{
+      display:inline-block;
+        background-color: #fff;
+        width: 190px;
+      font-size: 11px;
+        height: 26px;
+        padding-top: 0;
+        padding-bottom: 0;
+        border-radius: 3px;
+        border: 1px solid #4E5A5E;
+        padding-left: 5px;
+      }
+    }
+  @media(max-width: 767px){
+
+      top: 7px;
+      right: 5px;
+    &__input {
+      display: none;
+    }
+    &__button{
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-color:#fff ;
+      background-image: url("../images/black-gmail-sprite.png");
+      background-size:31px 780px;
+      background-position: 3px -753px;
+    }
+  }
+}

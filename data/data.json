@@ -1,0 +1,163 @@
+{
+  "bestvideo": [
+    {
+      "image": "/images/665715143_390x220.png"
+    },
+    {
+      "image": "/images/666669193_390x220.png"
+    },
+    {
+      "image": "/images/667734745_390x220.png"
+    },
+    {
+      "image": "/images/667879628_390x220.png"
+    },
+    {
+      "image": "/images/667912675_390x220.png"
+    },
+    {
+      "image": "/images/665715143_390x220.png"
+    },
+    {
+      "image": "/images/666669193_390x220.png"
+    },
+    {
+      "image": "/images/667734745_390x220.png"
+    },
+    {
+      "image": "/images/667879628_390x220.png"
+    },
+    {
+      "image": "/images/667912675_390x220.png"
+    },
+    {
+      "image": "/images/665715143_390x220.png"
+    },
+    {
+      "image": "/images/666669193_390x220.png"
+    },
+    {
+      "image": "/images/667734745_390x220.png"
+    },
+    {
+      "image": "/images/667879628_390x220.png"
+    },
+    {
+      "image": "/images/667912675_390x220.png"
+    }
+  ],
+
+    "sitemap-section": [
+      {
+        "section-name": "Vimeo",
+        "items": [
+          {
+            "url": "https://vimeo.com/about",
+            "title": "About Vimeo"
+          },
+          {
+            "url": "https://vimeo.com/blog",
+            "title": "Vimeo Blog"
+          },
+          {
+            "url": "https://vimeo.com/help/guidelines",
+            "title": "Vimeo GuideLines"
+          },
+          {
+            "url": "https://vimeo.com/vip",
+            "title": "Partners"
+          },
+          {
+            "url": "https://developer.vimeo.com/",
+            "title": "Developers"
+          },
+          {
+            "url": "https://vimeo.com/jobs",
+            "title": "Jobs"
+          }
+        ]
+      },
+      {
+        "section-name": "Help",
+        "items": [
+          {
+            "url": "https://vimeo.com/help",
+            "title": "Help Center"
+          },
+          {
+            "url": "https://vimeo.com/videoschool",
+            "title": "Video School"
+          },
+          {
+            "url": "https://vimeo.com/help/faq",
+            "title": "FAQ"
+          },
+          {
+            "url": "https://vimeo.com/forums",
+            "title": "Forums"
+          }
+        ]
+      },
+      {
+        "section-name": "More",
+        "items": [
+          {
+            "url": "https://vimeo.com/ondemand",
+            "title": "On Demand"
+          },
+          {
+            "url": "https://vimeo.com/upload",
+            "title": "Upload"
+          },
+          {
+            "url": "https://vimeo.com/site_map",
+            "title": "Site Map"
+          }
+        ]
+      },
+      {
+        "section-name": "Upgrade",
+        "items": [
+          {
+            "url": "https://vimeo.com/ondemand",
+            "title": "Vimeo Plus"
+          },
+          {
+            "url": "https://vimeo.com/ondemand",
+            "title": "Vimeo Pro"
+          },
+          {
+            "url": "https://vimeo.com/ondemand",
+            "title": "Vimeo Business"
+          },
+          {
+            "url": "https://vimeo.com/ondemand",
+            "title": "Vimeo Live"
+          },
+          {
+            "url": "https://vimeo.com/ondemand",
+            "title": "Vimeo OTT"
+          },
+          {
+            "url": "https://vimeo.com/ondemand",
+            "title": "Refer a friend"
+          }
+        ]
+      }
+  ],
+
+  "smallmap": [
+    {
+      "title": "Vimeo"
+    },
+    {
+      "title": "Help"
+    },
+    {
+      "title": "More"
+    },
+    {
+      "title": "Upgrade"
+    }
+  ]
+}

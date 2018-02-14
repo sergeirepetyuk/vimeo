@@ -1,0 +1,92 @@
+.Tools {
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url("../images/snow-ass.jpg");
+    color: white;
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 11.875rem;
+    display: block;
+}
+
+.Tools__wrapper {
+  max-width: 80rem;
+  padding: 0 2.5rem;
+  margin: 0 auto;
+}
+.Tools__get-tools {
+    margin-top: 3.125rem;
+    width: 31.25rem;
+    float: left;
+    font-size: 1rem;
+    height: 100%;
+}
+.get-tools-title {
+  padding-top: 48px;
+}
+.get-tools-title_mobile {
+  text-align: center;
+  color: white;
+  padding-top: 0 ;
+  margin-bottom: 3.125rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.Tools__player-conteiner {
+  width: 33.75rem;
+  height: 18.75rem;
+  float: right;
+  margin-top: 3.125rem;
+  background-image: url("../images/advertising.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 67.5625em) {
+  .Tools {
+    display: block;
+  }
+  .Points {
+    display: none;
+  }
+  .Tools__player-conteiner{
+    float: none;
+    left: 50%;
+    margin:0 auto;
+    width: 100%;
+  }
+  .get-tools-title {
+    display: none;
+  }
+  .Tools__wrapper {
+    max-width: 540px;
+    height: max-content;
+  }
+}
+@media screen and (min-width: 67.5625em) {
+  .get-tools-title_mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 37.5em){
+  .Tools__player-conteiner {
+  width: 100%;
+  height: 16rem;
+  }
+  .Additional-info_more-features {
+    margin-top: -3rem;
+  }
+  .get-tools-title_mobile {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: inherit;
+  }
+}
+@media screen and (max-width: 24.5em){
+  .Tools__player-conteiner {
+    width: 100%;
+    height: 11rem;
+  }
+  .Additional-info_more-features {
+    margin-top: -4rem;
+  }
+}

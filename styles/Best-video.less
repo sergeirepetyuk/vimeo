@@ -1,0 +1,49 @@
+@color: #1a2e3b;
+
+.Best-video {
+  color: @color;
+  text-align: center;
+}
+
+.Best-video-headers {
+  max-width: 1080px;
+  margin: 0 auto;
+
+  &__section-header {
+    font-family: sans-serif;
+    font-size: 2.25rem;
+    text-align: center;
+    margin: 1.875rem 0;
+    line-height: 2.875rem;
+    font-weight: 400;
+  }
+
+  &__description {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+}
+.Discover-wrapper {
+  display: none;
+}
+
+@media screen and (max-width: 37.5em) {
+  .Discover-wrapper {
+    display: block;
+  }
+
+  .Best-video-headers {
+    &__section-header {
+      font-size: 1.5rem;
+    }
+    &__description {
+      font-size: 1rem;
+      max-width: 28.125rem;
+      line-height: 1.4;
+      margin: 0 auto .9375rem;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.Sitemap {
+  padding-bottom: 5vh;
+  padding-left: 2vw;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  &__section {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3vw;
+  }
+  &__section-header {
+    color: #1a2e3b;
+    margin-bottom: .9em;
+    font-weight: 700;
+    font-size: .875rem;
+  }
+  &__section-item {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: .5em;
+  }
+
+  &__section-title {
+    color: #657987;
+    font-size: .875rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .Sitemap {
+    display: none;
+  }
+}

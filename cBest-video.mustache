@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/Best-video.css">
+    <link rel="stylesheet" href="style/Video-list.css">
+    <link rel="stylesheet" href="style/Video.css">
+    <link rel="stylesheet" href="style/Universal-button.css">
+    <link rel="stylesheet" href="style/Discover-wrapper.css">
+</head>
+<body>
+    <section class="Best-video">
+        <div class="Discover-wrapper">
+            <img class="Discover-wrapper__logo" src="https://f.vimeocdn.com/images_v6/marketing/creator_lohp/LOHP_SP.svg" alt="">
+        </div>
+        <div class="Best-video-headers">
+            <h2 class="Best-video-headers__section-header">Discover today’s best videos</h2>
+            <h3 class="Best-video-headers__description">Explore incredible shorts, films, and series on Staff Picks, hand-selected each day for endless inspiration.</h3>
+        </div>
+        <div class="Video-list">
+            {{#bestvideo}}
+                <article class="Video">
+                    <img class="Video__screen" src="{{image}}"/>
+                </article>
+            {{/bestvideo}}
+            <button class="Universal-button">Watch</button>
+        </div>
+
+
+    </section>
+</body>
+</html>
