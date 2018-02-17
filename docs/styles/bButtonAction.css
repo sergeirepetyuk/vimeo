@@ -1,0 +1,14 @@
+.Button__action_blue {
+  display: inline-block;
+  float: right;
+  padding: 5px 15px;
+  max-width: 9.375rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  min-width: 7rem;
+  margin-top: 65vh;
+  color: #FFF;
+  margin-right: -7rem;
+  border: 3px solid #00ADEF;
+  background-color: #00ADEF;
+}
