@@ -1,0 +1,55 @@
+.Footer-sitemap {
+  background-color: #F2F4F5;
+}
+.Sitemap,
+.Stats-dashboard {
+  display: inline-block;
+  vertical-align: top;
+}
+.Stats-dashboard {
+  margin-top: 2vh;
+  position: absolute;
+  right: 10px;
+}
+@media screen {
+  .Sitemap-small {
+    display: none;
+  }
+}
+@media screen and (max-width: 48em) {
+  .Stats-dashboard {
+    display: block;
+    width: 90%;
+    vertical-align: middle;
+  }
+  .Sitemap-small {
+    display: none;
+  }
+}
+@media screen and (max-width: 67.5em) {
+  .Stats-dashboard {
+    display: block;
+    width: 90%;
+    vertical-align: middle;
+  }
+  .Sitemap-small {
+    display: none;
+  }
+}
+@media screen and (max-width: 37.5em) {
+  .Sitemap {
+    display: none;
+  }
+  .Sitemap-small {
+    display: block;
+  }
+}
+/*.Sitemap {
+  float: left;
+  width: 70%;
+}
+
+.Stats-dashboard {
+  float: right;
+  width: 30%;
+}*/

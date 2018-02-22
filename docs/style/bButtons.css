@@ -1,0 +1,30 @@
+.Buttons {
+  text-align: center;
+  padding: 2.5rem 1.25rem;
+}
+.Buttons__find-plan {
+  min-width: 7rem;
+  max-width: 13.4rem;
+  background-color: #eef1f2;
+  border: 1px solid #eef1f2;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  width: 8rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #1a2e3b;
+  margin: 5px;
+}
+.Buttons__join {
+  min-width: 7rem;
+  max-width: 13.4rem;
+  background-color: #7fc400;
+  border: 1px solid #7fc400;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  width: 8rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  margin: 5px;
+}
